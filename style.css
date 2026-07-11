@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif
 }
+/* Come to center nav items */
 nav {
     display: flex;
     justify-content: space-between;
@@ -13,6 +14,7 @@ nav {
     margin: 20px 40px 0px 40px;
     border-radius: 12px;
 }
+/* Useing gap for space */
 ul {
 
     display: flex;
@@ -37,4 +39,45 @@ ul {
 ul a {
   color: #333333;
   text-decoration: none;
+}
+
+/* Hero section state */
+/* Added overly image */
+.hero {
+    background-image: url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Added overly decoration */
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 175px;
+}
+
+.hero-text- {
+    color: white;
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+/* Emphasize hero title */
+.hero-text-em {
+    font-style: italic;
+}
+
+/* Hero text gap */
+.hero-text {
+    color:white;
+    font-size: 18px;
+    max-width: 700px;
+    margin-bottom: 175px;
+    line-height: 1.6;
 }
