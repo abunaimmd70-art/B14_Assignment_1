@@ -1,0 +1,40 @@
+/* Useing universal selector for default behavior changing */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px 0px 40px;
+    border-radius: 12px;
+}
+ul {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+/* Creat a common button */
+.common-button {
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    box-shadow: none;
+}
+/* underline remove */
+/* replace color*/
+ul a {
+  color: #333333;
+  text-decoration: none;
+}
