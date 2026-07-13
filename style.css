@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif
+    font-family: "Inter", sans-serif;
+
 }
 /* Come to center nav items */
 nav {
@@ -152,12 +153,18 @@ ul a {
     margin-bottom: 50px;
 }
 
+.price-note {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
 .pricing-cards {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
-    max-width: 1100px;
+    max-width:1500px;
     margin: 0 auto;
 }
 
@@ -166,7 +173,7 @@ ul a {
     border: 1px solid #e5e5e5;
     border-radius: 12px;
     padding: 30px;
-    width: 280px;
+    width: 300px;
     text-align: left;
 }
 
@@ -176,6 +183,17 @@ ul a {
     color: #888;
     letter-spacing: 0.5px;
 }
+.price-card hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.price-card ul li::before {
+    content: "•";
+    color: #3b5bfd;
+    position: absolute;
+    left: 0;
+}
 
 .price {
     font-size: 36px;
@@ -183,17 +201,6 @@ ul a {
     margin: 8px 0 0 0;
 }
 
-.price-note {
-    font-size: 13px;
-    color: #999;
-    margin-bottom: 20px;
-}
-
-.price-card hr {
-    border: none;
-    border-top: 1px solid #e5e5e5;
-    margin-bottom: 20px;
-}
 
 .price-card ul {
     list-style: none;
@@ -209,20 +216,13 @@ ul a {
     color: #333;
 }
 
-.price-card ul li::before {
-    content: "•";
-    color: #3b5bfd;
-    position: absolute;
-    left: 0;
-}
-
 /* Buttons */
 .btn-outline {
     display: block;
     text-align: center;
-    padding: 12px;
+    padding: 20px;
     border: 1px solid #3b5bfd;
-    border-radius: 8px;
+    border-radius: 15px;
     color: #3b5bfd;
     text-decoration: none;
     font-weight: 600;
@@ -240,6 +240,10 @@ ul a {
 }
 
 /* Featured Pro card */
+.price-card.featured .btn-filled {
+    background-color: #3b5bfd;
+}
+
 .price-card.featured {
     background-color: #10141f;
     border: none;
@@ -261,9 +265,7 @@ ul a {
     border-top: 1px solid #333;
 }
 
-.price-card.featured .btn-filled {
-    background-color: #3b5bfd;
-}
+
 
 /* This section created by Useing AI */
 /*  This comand use here */
@@ -344,4 +346,82 @@ the pricing section above it (Standard/Pro/Team plans). */
     line-height: 1.6;
     font-size: 15px;
 }
-/* AI section nd */
+/* AI section end */
+/* Footer section start */
+.footer {
+    background-color: #10141f;
+    color: white;
+    padding: 40px 60px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo - Left */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Logo img */
+.footer-logo img {
+    width: 100px;
+    height: 32px;
+}
+
+.footer-logo span {
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+}
+
+/* Social Icons - Right */
+.footer-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-socials a {
+    width: 38px;
+    height: 38px;
+    background-color: #1c2333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.footer-socials a img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-socials a:hover {
+    background-color: #3b5bfd;
+}
+
+/* Divider */
+.footer-divider {
+    border: none;
+    border-top: 1px solid #232a3d;
+    margin: 30px auto;
+}
+
+/* Copyright */
+.footer-copyright {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-copyright p {
+    font-size: 20px;
+    color: #9098a8;
+}
+/* Footer section end */
