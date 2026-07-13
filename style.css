@@ -7,6 +7,8 @@
     font-family: "Inter", sans-serif;
 
 }
+
+
 /* Come to center nav items */
 nav {
     display: flex;
@@ -15,6 +17,8 @@ nav {
     margin: 20px 40px 0px 40px;
     border-radius: 12px;
 }
+
+
 /* Useing gap for space */
 .nav-m{
     display: flex;
@@ -22,6 +26,9 @@ nav {
     gap: 20px;
     list-style: none;
 }
+
+
+
 /* Creat a common button */
 .common-button {
     background-color: blue;
@@ -33,6 +40,8 @@ nav {
     color: white;
     text-decoration: none;
     box-shadow: none;
+
+
 }
 /* underline remove */
 /* replace color*/
@@ -40,6 +49,8 @@ ul a {
   color: #333333;
   text-decoration: none;
 }
+
+
 
 /* Hero section start */
 /* Added overly image */
@@ -49,6 +60,7 @@ ul a {
     background-position: center;
 }
 /* Added overly decoration */
+
 
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.6);
@@ -61,6 +73,8 @@ ul a {
     padding: 175px;
 }
 
+
+
 .hero-text- {
     color: white;
     font-size: 56px;
@@ -68,10 +82,21 @@ ul a {
     margin-bottom: 20px;
 }
 
+
+
 /* Emphasize hero title */
 .hero-text-em {
     font-style: italic;
 }
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
 
 /* Hero text gap */
 .hero-text {
@@ -81,17 +106,14 @@ ul a {
     margin-bottom: 175px;
     line-height: 1.6;
 }
-.section-title {
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 50px;
-}
+
+
 /* Speaker section start */
 .speakers {
     padding: 80px 40px; 
 }
+
+
 
 .speakers-grid {
     display: grid;
@@ -99,12 +121,16 @@ ul a {
     gap: 30px;
     margin: 0 auto;
 }
+
+
 .speaker-card {
     border: 1px solid #e5e5e5;
     border-radius: 12px;
     overflow: hidden;
     text-align: left;
 }
+
+
 
 .speaker-card img {
     width: 100%;
@@ -113,9 +139,16 @@ ul a {
     display: block;
 }
 
+.speaker-role {
+    color: #666;
+    font-size: 14px;
+}
+
 .speaker-info {
     padding: 20px;
 }
+
+
 
 .speaker-tag {
     color: #3f37c9;
@@ -124,17 +157,16 @@ ul a {
     letter-spacing: 0.5px;
 }
 
+
+
 .speaker-name {
     font-size: 18px;
     font-weight: 700;
     margin: 8px 0 4px 0;
 }
-
-.speaker-role {
-    color: #666;
-    font-size: 14px;
-}
 /* Speaker section end */
+
+
 /* card section */
 
 .pricing {
@@ -143,7 +175,7 @@ ul a {
 }
 
 .pricing-header h2 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     margin-bottom: 10px;
 }
@@ -151,6 +183,7 @@ ul a {
 .pricing-header p {
     color: #666;
     margin-bottom: 50px;
+    font-size: 10px;
 }
 
 .price-note {
@@ -220,9 +253,9 @@ ul a {
 .btn-outline {
     display: block;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #3b5bfd;
-    border-radius: 15px;
+    border-radius: 8px;
     color: #3b5bfd;
     text-decoration: none;
     font-weight: 600;
@@ -231,7 +264,7 @@ ul a {
 .btn-filled {
     display: block;
     text-align: center;
-    padding: 12px;
+    padding:10px;
     background-color: #3b5bfd;
     border-radius: 8px;
     color: white;
@@ -351,7 +384,7 @@ the pricing section above it (Standard/Pro/Team plans). */
 .footer {
     background-color: #10141f;
     color: white;
-    padding: 40px 60px;
+    padding: 150px 60px;
 }
 
 .footer-top {
