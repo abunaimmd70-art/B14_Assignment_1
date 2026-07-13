@@ -264,3 +264,84 @@ ul a {
 .price-card.featured .btn-filled {
     background-color: #3b5bfd;
 }
+
+/* This section created by Useing AI */
+/*  This comand use here */
+/* 
+Style: clean, minimal, matching a dark navy and blue (#3b5bfd) 
+color scheme, white background, rounded cards, consistent with 
+the pricing section above it (Standard/Pro/Team plans). */
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.faq-header h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #10141f;
+    margin-bottom: 10px;
+}
+
+.faq-header p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.faq-list {
+    text-align: left;
+}
+
+.faq-item {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    background: #fafafa;
+    border: none;
+    padding: 20px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #10141f;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-icon {
+    font-size: 20px;
+    color: #3b5bfd;
+    transition: transform 0.3s ease;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg); /* + থেকে x এর মতো ঘুরে যাবে */
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 24px;
+    background: white;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 200px;
+    padding: 0 24px 20px 24px;
+}
+
+.faq-answer p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 15px;
+}
+/* AI section nd */
