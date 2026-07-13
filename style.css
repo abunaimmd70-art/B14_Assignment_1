@@ -15,8 +15,7 @@ nav {
     border-radius: 12px;
 }
 /* Useing gap for space */
-ul {
-
+.nav-m{
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -135,3 +134,133 @@ ul a {
     font-size: 14px;
 }
 /* Speaker section end */
+/* card section */
+
+.pricing {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.pricing-header h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.pricing-header p {
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.price-card {
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 30px;
+    width: 280px;
+    text-align: left;
+}
+
+.plan-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 0.5px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 8px 0 0 0;
+}
+
+.price-note {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.price-card hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.price-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.price-card ul li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #333;
+}
+
+.price-card ul li::before {
+    content: "•";
+    color: #3b5bfd;
+    position: absolute;
+    left: 0;
+}
+
+/* Buttons */
+.btn-outline {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #3b5bfd;
+    border-radius: 8px;
+    color: #3b5bfd;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-filled {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    background-color: #3b5bfd;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Featured Pro card */
+.price-card.featured {
+    background-color: #10141f;
+    border: none;
+    transform: scale(1.05);
+    color: white;
+}
+
+.price-card.featured .plan-name {
+    color: #6d8cff;
+}
+
+.price-card.featured .price,
+.price-card.featured .price-note,
+.price-card.featured ul li {
+    color: white;
+}
+
+.price-card.featured hr {
+    border-top: 1px solid #333;
+}
+
+.price-card.featured .btn-filled {
+    background-color: #3b5bfd;
+}
